@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+body{
+    background-color: #0a1140;
+    background-image: url("img/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+header{
+    height: 10vh;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.navbar__logo{
+    font-size: 1.5em;
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    padding: 30px 100px 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid white;
+    z-index: 2;
+    background-color: rgb(10, 17, 64,0.9);
+}
+.navbar__nav ul {
+    margin-right: 130px;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    gap: 40px;
+    
+}
+.navbar__item{
+    font-weight: bold;
+    transition: 0.3;
+}
+.navbar__item :hover{
+    text-decoration-line: underline;
+    font-size: 1.2em;
+    padding: 10%;
+}
+
+.landingPage{
+    height: 90vh;
+    display: flex;
+    gap: 130px;
+    margin: 80px auto auto auto;
+    width: 60%;
+}
+.landingPage__text {
+    width: 400px;
+    color: white;
+}
+.landingPage__text h1{
+    font-size: 4em;
+    font-family: "Merriweather", serif;
+}
+.landingPage__text h2{
+    font-weight: lighter;
+    margin: 20px 0 30px 0;
+}
+.landingPage__text button{
+    background-color: white;
+    padding: 10px 40px 10px 40px;
+    border: none;
+    border-radius:  25px;
+    margin-bottom: 30px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.landingPage__text button:hover{
+    background-color: #c3f0f7;
+}
+.landingPage__text button:active{
+    box-shadow: inset 1px 1px black;
+}
+.text--light{
+    text-shadow: 1px 1px 2px black, 0 0 1em white, 0 0 0.2em white;
+}
+.landingPage__text p{
+
+    padding-left: 8px;
+    border-left: 2px solid white;
+    text-align: justify;
+}
+.landingPage__img{
+    width: fit-content;
+    /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+
+}
+.landingPage__img img{
+    margin: auto;
+    /* border-right: 5px solid white;
+    border-bottom: 5px solid white;*/
+    border-bottom-right-radius: 10px; 
+    box-shadow: white 1.95px 1.95px 5px;
+    backdrop-filter: blur(5px);
+}
+.landingPage__title{
+    padding-left: 8px;
+    border-left: 10px solid white;
+    
+}
+.hobbies__container{
+    background-color: rgb(255, 255, 255,0.6);
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: auto ;
+    row-gap: 15px;
+    column-gap: 35px;
+    padding: 10px;
+    width: fit-content;
+    margin: 70px auto 40px auto;
+    box-shadow: white 0px 1px 4px;
+}
+.hobbies__img{
+    height: 240px;
+    width: 240px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.hobbies__text, .piedPage__title{
+    color: white;
+    font-size: 3em;
+    width:fit-content;
+    margin: auto;
+}
+.piedPage{
+    margin-top: 10%;
+    width: auto;
+    padding: 2% 0 2% 0;
+    background-color: rgb(10, 17, 64, 0.5);
+}
+.piedPage__item img{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.piedPage ul{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+}
